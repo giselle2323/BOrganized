@@ -1,0 +1,46 @@
+{
+    "name": "beorganized",
+    "version": "1.0.0",
+    "description": "An application that manages monthly Standups",
+    "main": "dist/index",
+    "typings": "dist/index",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "dev": "cross-env NODE_ENV=development nodemon ./index.js",
+        "start:server": " nodemon --exec babel-node -- ./index.js"
+    },
+    "author": "Aminat",
+    "license": "ISC",
+    "dependencies": {
+        "@hapi/joi": "^15.0.3",
+        "bcryptjs": "^2.4.3",
+        "cors": "^2.8.5",
+        "dotenv": "^8.2.0",
+        "errorhandler": "^1.5.1",
+        "express": "^4.17.1",
+        "express-messages": "^1.0.1",
+        "express-session": "^1.17.0",
+        "express-validator": "^6.2.0",
+        "joi-objectid": "^2.0.0",
+        "jsonwebtoken": "^8.5.1",
+        "lodash": "^4.17.15",
+        "mongoose": "^5.7.11"
+    },
+    "devDependencies": {
+        "@babel/cli": "^7.7.5",
+        "@babel/core": "^7.7.5",
+        "@babel/node": "^7.7.4",
+        "@babel/preset-env": "^7.7.6",
+        "cross-env": "^6.0.3",
+        "morgan": "^1.9.1",
+        "nodemon": "^2.0.2"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/giselle2323/Standup"
+    },
+    "keywords": [
+        "Event",
+        "Quiz"
+    ]
+}

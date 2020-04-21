@@ -1,0 +1,127 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+    background-color: #fff;
+}
+
+.wrapper {
+    height: 100%;
+    width: 100%;
+}
+
+.intro-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+}
+
+.top-bar {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    width: 100%;
+    padding: 10px;
+}
+
+.top-bar a {
+    padding: 10px;
+}
+
+.topbar-brand {
+    font-size: 20px;
+    color: #000;
+}
+
+.left-top-items {
+    position: absolute;
+    width: 60%;
+    color: grey;
+    left: 0;
+}
+
+.left-top-items a {
+    text-decoration: none;
+}
+
+.left-top-items a {
+    text-decoration: none;
+    color: grey;
+}
+
+.right-top-items {
+    width: 40%;
+    color: grey;
+    position: absolute;
+    right: 0;
+}
+
+.right-top-items a {
+    color: grey;
+    text-decoration: none;
+}
+
+.right-top-items a:hover {
+    text-decoration: none;
+}
+
+.header-container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.header-container-text {
+    width: 50%;
+}
+
+.header-container-image {
+    width: 50%;
+    position: absolute;
+    right: -74px;
+}
+
+.header-container-image img {
+    width: 100%;
+}
+
+.signup {
+    background-color: #2acfcf;
+    color: #fff!important;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.header-container-text h3 {
+    font-size: 40px;
+}
+
+.header-container-text p {
+    font-size: 20px;
+}
+
+.header-container-text a {
+    text-decoration: none;
+    background-color: #2acfcf;
+    color: #fff;
+}
+.u-get-started {
+    border-radius: 5px;
+    background-color: #2acfcf;
+    color: #fff;
+    width: 200px;
+    border: none;
+    height: 50px;
+}
+.u-statistics-container {
+    position: relative;
+    width: 100%;
+}
