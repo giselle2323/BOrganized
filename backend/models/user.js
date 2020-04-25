@@ -9,6 +9,11 @@ const User = mongoose.model(
         },
         password: {
             type: String
+        },
+        username: {
+            type:  String,
+            required: [true, "can't be blank"],
+            unique: true
         }
     },
         {

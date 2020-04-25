@@ -1,0 +1,23 @@
+.container {
+  width: 100%;
+  display: flex;
+  flex-flow: column;
+  font-family: 'Poppins', sans-serif;
+}
+
+.right-column {
+  display: inherit;
+  width: 100%;
+  padding: 10px;
+  background-color: #ffffff;
+}
+.image-container img {
+ max-width: 100%;
+}
+
+.left-column {
+  display: inherit;
+  width: 100%;
+  padding: 10px;
+  background-color: #2541B2;
+}

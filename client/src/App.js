@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import { Switch, Route,  BrowserRouter as Router } from "react-router-dom"
-import './styles.css';
+import { Switch, Route, BrowserRouter as Router } from "react-router-dom"
+import './css/reset.css';
 import Homepage from './pages/homepage';
 import Signup from './pages/signup';
 import Login from './pages/login';

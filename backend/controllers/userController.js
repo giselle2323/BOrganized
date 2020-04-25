@@ -6,11 +6,12 @@ class UserController {
     static async signUp(req, res) {
         try {
             const { email } = req.body;
+            const { username } = req.body;
             let { password } = req.body;
             const hashedPassword = Utils.hashedPassword(password);
             password = hashedPassword;
-            const user = await UserServices.createUser({ email, password });
-            // const token = Utils.generateToken({ email });
+            const user = await UserServices.createUser({ email, password, username });
+            const token = Utils.generateToken({ email });
             res.set('Authorization', `Bearer ${token}`);
             return res.status(201).send({ user});
         } catch (error) {
